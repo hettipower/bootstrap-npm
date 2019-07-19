@@ -2,6 +2,6 @@
 Customize Bootstrap 4 with Sass variables
 
 # How to Use
-Clone repo `git clone https://github.com/hettipower/bootstrap-npm.git`
-Run `npm install`
-Run `npm start`
+1. Clone repo `git clone https://github.com/hettipower/bootstrap-npm.git`
+2. Run `npm install`
+3. Run `npm start`
