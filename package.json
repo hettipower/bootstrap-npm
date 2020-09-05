@@ -4,7 +4,7 @@
   "main": "index.html",
   "scripts": {
     "node-sass": "node-sass --output-style=expanded --source-map=true assets/scss/main.scss assets/css/style.css",
-    "prefix": "postcss assets/css/style.css --use=autoprefixer --output=assets/css/style.css",    
+    "prefix": "postcss assets/css/style.css --use=autoprefixer --output=assets/css/style.css",
     "minify-css": "cleancss -o assets/css/style.min.css assets/css/style.css",
     "build:sass": "npm run node-sass && npm run prefix && npm run minify-css",
     "start": "onchange \"assets/scss/**/*.scss\" -- npm run build:sass"
@@ -24,9 +24,9 @@
     "autoprefixer": "^9.4.2",
     "bootstrap": "^4.3.1",
     "clean-css-cli": "^4.3.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "node-sass": "latest",
-    "onchange": "^5.2.0",
+    "onchange": "^7.0.2",
     "popper.js": "^1.14.7",
     "postcss-cli": "latest"
   }
